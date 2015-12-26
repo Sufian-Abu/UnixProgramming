@@ -1,0 +1,1 @@
+BRACU12101064@ub40103pc07z:/$ alias rm='rm -i' > myalias

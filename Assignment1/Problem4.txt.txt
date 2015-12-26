@@ -1,0 +1,10 @@
+Problem4.txt
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb4$ ./irun4ever
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb4$ ps -C irun4ever
+  PID TTY          TIME CMD
+ 2313 pts/14   00:00:00 irun4ever
+
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb4$ kill 2313
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb4$ fg
+./irun4ever
+Terminated

@@ -1,0 +1,6 @@
+problem2.txt
+
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb1$ wc -l dog.txt
+
+1 dog.txt
+wc (short for word count) 

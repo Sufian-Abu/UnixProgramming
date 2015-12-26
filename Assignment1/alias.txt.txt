@@ -1,0 +1,7 @@
+Problem5.txt
+
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb1$ alias abu='rm -i'
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb1$ ls
+animals.txt  dog.txt  mouse.txt  very-long-file.txt
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb1$ abu mouse.txt
+rm: remove regular file â??mouse.txtâ???

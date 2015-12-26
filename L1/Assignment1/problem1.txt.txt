@@ -1,0 +1,70 @@
+1a)
+
+BRACU12101064@ub40103pc07z:~/hw1$ mkdir pb1 pb4 pb6
+BRACU12101064@ub40103pc07z:~/hw1$ mv animals.txt dog.txt mouse.txt very-long-file.txt pb1
+BRACU12101064@ub40103pc07z:~/hw1$ mv irun4ever.c irun4ever pb4
+BRACU12101064@ub40103pc07z:~/hw1$ mv file1.txt file2.txt hw1.sh pb6
+
+1b)
+
+BRACU12101064@ub40103pc07z:~$ rsync -a hw1 hw1-back
+
+1c)
+
+BRACU12101064@ub40103pc07z:~/hw1/pb6$ chmod 755 ./hw1.sh
+
+1d)
+
+BRACU12101064@ub40103pc07z:~/hw1/pb1$ (head -5 very-long-file.txt) >very-long-file-header.txt
+
+
+1e)
+
+HOME=/home/likewise-open/BRACU/12101064
+Indicates the home directory of the current user: the default argument for the cd built-in command.
+
+1f)
+
+PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+Indicates search path for commands. It is a colon-separated list of directories in which the shell looks for commands.
+
+1g)
+
+ the scripts directory is not in the PATH, and . (the current directory) is not in the PATH either, so we can activate the script like this: ./hw1.sh
+
+1h)
+
+nano ~/.bash_profile
+
+export PATH=$PATH:.
+
+source ~/.bash_profile
+
+1i)
+
+Single quotes treat their contents literally
+BRACU12101064@ub40103pc07z:~$ mkdir 'whoami'
+BRACU12101064@ub40103pc07z:~$ echo 'whoami'
+whoami
+
+
+Backquotes cause their contents to be evaluated as a com-
+mand; the contents are then replaced by the standard output
+of the command:
+BRACU12101064@ub40103pc07z:~$ mkdir `whoami`
+BRACU12101064@ub40103pc07z:~$ echo `whoami`
+BRACU12101064
+
+1j)
+
+Pipes Pass the output of one command to another for further processing. 
+Uses ls command to list out all the .txt file in /hw1/pb1 directory and pass the list to grep to search for files containing "dog".   
+BRACU12101064@ub40103pc07z:/$ ls ~/hw1/pb1/*.txt | grep dog
+/home/likewise-open/BRACU/12101064/hw1/pb1/dog.txt
+
+grep command search for lines containing "dog" in all the .txt file in /hw1/pb1 directory. the backqoute evaluates the command.
+BRACU12101064@ub40103pc07z:/$ grep dog `ls ~/hw1/pb1/*.txt`
+/home/likewise-open/BRACU/12101064/hw1/pb1/animals.txt:dog 
+/home/likewise-open/BRACU/12101064/hw1/pb1/animals.txt:dog again
+/home/likewise-open/BRACU/12101064/hw1/pb1/dog.txt:yorkies are small dogs
+

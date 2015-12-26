@@ -1,0 +1,3 @@
+3)
+
+In Unix, the name of the tar command is short for tape archiving, the storing of entire file systems onto magnetic tape, which is one use for the command. However, a more common use for tar is to simply combine a few files into a single file, for easy storage and distribution. (ref : https://kb.iu.edu/d/acfi)

@@ -1,0 +1,7 @@
+2) 
+
+wc - Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.  
+-L, --max-line-length  print the length of the longest line
+
+BRACU12101064@ub40103pc07z:/$ wc -L ~/hw1/pb1/dog.txt
+22 /home/likewise-open/BRACU/12101064/hw1/pb1/dog.txt

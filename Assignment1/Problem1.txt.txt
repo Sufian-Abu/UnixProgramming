@@ -1,0 +1,52 @@
+problem1a.
+
+BRACU12101048@ub40103pc08z:~/Downloads/hw1$ mkdir pb1 pb4 pb6
+BRACU12101048@ub40103pc08z:~/Downloads/hw1$ mv animals.txt dog.txt mouse.txt very-long-file.txt pb1
+BRACU12101048@ub40103pc08z:~/Downloads/hw1$ mv irun4ever.c irun4ever pb4
+BRACU12101048@ub40103pc08z:~/Downloads/hw1$ mv file1.txt file2.txt hw1.sh pb6
+
+Porblem1b.
+
+BRACU12101048@ub40103pc08z:~/Downloads$ cp -r hw1 hw1-back
+
+problem1c.
+
+BRACU12101048@ub40103pc08z:~/Downloads/hw1/pb6$ chmod a+x hw1.sh
+
+problem1D.
+
+BRACU12101048@ub40103pc08z:~/Downloads/hw1/pb1$ head -n5 very-long-file.txt>>very-long-file-header.txt
+
+problem1e.
+
+BRACU12101048@ub40103pc08z:~$ echo $HOME
+/home/likewise-open/BRACU/12101048
+
+home (the path name of my home directory) 
+
+
+Problem1f.
+
+BRACU12101048@ub40103pc08z:~$ echo $PATH
+/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+problem1g.
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb6$ hw1.sh
+hw1.sh: command not found
+
+abusufian@abusufian-VirtualBox:~/Desktop/hw1/pb6$ ./hw1.sh
+Usage: hw1.sh ARGUMENT
+
+Reason: hw1.sh does not have executable permission where as 
+
+problem.h
+
+abusufian@abusufian-VirtualBox:~$ PATH=$PATH:.
+
+
+Porblem.I
+
+mkdir 'whoami' create directory but `whoami` does not create anything.
+
+
+
